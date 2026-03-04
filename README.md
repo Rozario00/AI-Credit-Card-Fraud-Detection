@@ -1,26 +1,34 @@
 # AI Credit Card Fraud Detection
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
+![Deep Learning](https://img.shields.io/badge/Deep-Learning-red)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-yellow)
+![XGBoost](https://img.shields.io/badge/XGBoost-Gradient%20Boosting-purple)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+
 Machine Learning and Deep Learning based fraud detection system designed to identify fraudulent credit card transactions from a highly imbalanced financial dataset.
 
 ---
 
-## 🚀 Project Overview
+# 🚀 Project Overview
 
-Credit card fraud detection is a critical challenge in modern financial systems due to the extremely imbalanced nature of transaction data.
+Credit card fraud detection is a major challenge in modern financial systems due to the extremely imbalanced nature of transaction data.
 
 This project builds an AI-based fraud detection system using multiple Machine Learning and Deep Learning models to detect fraudulent transactions and compare their performance.
 
-Key focus areas:
+Key objectives of the project:
 
-* Handling severe class imbalance using **SMOTE**
-* Comparing multiple Machine Learning models
-* Evaluating models using robust performance metrics
-* Fraud probability prediction system
-* Simulation of real-world fraud prediction
+* Handle severe class imbalance using **SMOTE**
+* Compare multiple machine learning models
+* Evaluate models using robust performance metrics
+* Implement probability-based fraud prediction
+* Simulate real-world fraud detection scenarios
 
 ---
 
-## 🧠 Models Implemented
+# 🧠 Models Implemented
 
 The following models were trained and evaluated:
 
@@ -34,7 +42,7 @@ These models were compared to determine the most effective approach for detectin
 
 ---
 
-## ⚙️ Tech Stack
+# ⚙️ Tech Stack
 
 * Python
 * Pandas
@@ -48,18 +56,18 @@ These models were compared to determine the most effective approach for detectin
 
 ---
 
-## 📊 Key Features
+# 📊 Key Features
 
 * Data preprocessing and feature scaling
 * Handling imbalanced datasets using **SMOTE**
-* Multiple Machine Learning and Deep Learning models
+* Multiple ML and DL models for fraud detection
 * Confusion Matrix and ROC-AUC evaluation
 * Fraud probability prediction system
 * Model performance comparison
 
 ---
 
-## 📁 Dataset
+# 📁 Dataset
 
 The dataset is too large to host directly on GitHub.
 
@@ -71,7 +79,7 @@ After downloading, place the CSV file inside the project directory.
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 AI-Credit-Card-Fraud-Detection
 │
@@ -86,7 +94,7 @@ AI-Credit-Card-Fraud-Detection
 
 ---
 
-## 🧪 How to Run
+# 🧪 How to Run
 
 1. Clone the repository
 
@@ -106,7 +114,7 @@ Credit_Card_Fraud_Detection.ipynb
 
 ---
 
-## 📸 Project Screenshots
+# 📸 Project Screenshots
 
 ### Class Distribution Before SMOTE
 
@@ -126,9 +134,9 @@ Credit_Card_Fraud_Detection.ipynb
 
 ---
 
-## 📈 Results
+# 📈 Results
 
-The models achieved strong fraud detection performance despite the extreme class imbalance in the dataset.
+The implemented models achieved strong fraud detection performance despite the extreme class imbalance.
 
 Evaluation metrics used:
 
@@ -137,25 +145,27 @@ Evaluation metrics used:
 * F1 Score
 * ROC-AUC
 
-Ensemble models and deep learning approaches demonstrated strong capability in identifying fraudulent transactions.
+Ensemble models and deep learning approaches demonstrated strong capability in identifying fraudulent transactions while minimizing false positives.
 
 ---
 
-## 🔮 Future Improvements
+# 🔮 Future Improvements
+
+Possible future enhancements include:
 
 * Real-time fraud detection system
-* API deployment using Flask or FastAPI
-* Integration with financial transaction systems
+* Deployment using Flask or FastAPI
+* Integration with banking transaction systems
 * Live fraud monitoring dashboard
-* Advanced anomaly detection models
+* Advanced anomaly detection techniques
 
 ---
 
-## 👤 Author
+# 👤 Author
 
 **Dheeraj C**
 AI & Machine Learning Developer
-Interested in building real-world AI systems for financial security and data-driven applications.
+Interested in building real-world AI systems for finance and data-driven applications.
 
 ---
 
