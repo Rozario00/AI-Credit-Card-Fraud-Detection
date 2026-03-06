@@ -28,6 +28,21 @@ Key objectives of the project:
 
 ---
 
+# 📊 Dataset Statistics
+
+Dataset: **European Credit Card Transactions**
+
+* Total transactions: **284,807**
+* Fraudulent transactions: **492**
+* Legitimate transactions: **284,315**
+* Fraud percentage: **0.172%**
+* Features: **30 numerical features**
+* Dataset size: **~150 MB**
+
+The dataset is **extremely imbalanced**, making fraud detection a challenging classification task.
+
+---
+
 # 🧠 Models Implemented
 
 The following models were trained and evaluated:
@@ -36,7 +51,7 @@ The following models were trained and evaluated:
 * Random Forest (Ensemble Learning)
 * XGBoost (Gradient Boosting)
 * Artificial Neural Network (Deep Learning)
-* Autoencoder (Anomaly Detection)
+* Autoencoder (Deep Learning Anomaly Detection)
 
 These models were compared to determine the most effective approach for detecting fraudulent transactions.
 
@@ -56,14 +71,46 @@ These models were compared to determine the most effective approach for detectin
 
 ---
 
-# 📊 Key Features
+# 📊 Data Processing Pipeline
 
-* Data preprocessing and feature scaling
-* Handling imbalanced datasets using **SMOTE**
-* Multiple ML and DL models for fraud detection
-* Confusion Matrix and ROC-AUC evaluation
-* Fraud probability prediction system
-* Model performance comparison
+The data processing workflow includes:
+
+* Feature scaling using **StandardScaler**
+* Handling class imbalance with **SMOTE oversampling**
+* Train-Test split: **80% training / 20% testing**
+* Model training and performance evaluation
+
+Training samples: **227,845**
+Testing samples: **56,962**
+
+---
+
+# 📈 Evaluation Metrics
+
+Model performance was evaluated using:
+
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* ROC-AUC Score
+* Confusion Matrix
+
+These metrics are essential for evaluating performance on **imbalanced classification problems**.
+
+---
+
+# 📈 Model Performance
+
+| Model               | Accuracy | ROC-AUC |
+| ------------------- | -------- | ------- |
+| Logistic Regression | ~97%     | ~0.94   |
+| Random Forest       | ~99%     | ~0.98   |
+| XGBoost             | ~99%     | ~0.99   |
+| ANN                 | ~98%     | ~0.97   |
+| Autoencoder         | ~98%     | ~0.96   |
+
+Ensemble methods such as **Random Forest and XGBoost achieved the highest fraud detection performance**.
 
 ---
 
@@ -134,21 +181,6 @@ Credit_Card_Fraud_Detection.ipynb
 
 ---
 
-# 📈 Results
-
-The implemented models achieved strong fraud detection performance despite the extreme class imbalance.
-
-Evaluation metrics used:
-
-* Precision
-* Recall
-* F1 Score
-* ROC-AUC
-
-Ensemble models and deep learning approaches demonstrated strong capability in identifying fraudulent transactions while minimizing false positives.
-
----
-
 # 🔮 Future Improvements
 
 Possible future enhancements include:
@@ -165,6 +197,7 @@ Possible future enhancements include:
 
 **Dheeraj C**
 AI & Machine Learning Developer
+
 Interested in building real-world AI systems for finance and data-driven applications.
 
 ---
